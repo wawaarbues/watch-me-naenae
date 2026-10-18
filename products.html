@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Watch Me Naenae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a class="logo" href="home.html">WATCH ME <span>NAENAE</span></a>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </nav>
+</header>
+
+<main class="section">
+    <p class="eyebrow">OUR COLLECTION</p>
+    <h1>Our Watch Products</h1>
+    <p class="section-intro">Find a watch that matches your style.</p>
+
+    <div class="products-grid">
+        <article class="product-card">
+            <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
+                alt="Classic wristwatch">
+            <div class="product-info">
+                <h3> NaeNae Classic Gold</h3>
+                <p class="price">₱1,299</p>
+                <button class="btn add-cart"
+                    data-name=" NaeNae Classic Gold" data-price="1299">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img
+                src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=700&q=80"
+                alt="Elegant wristwatch">
+            <div class="product-info">
+                <h3> NaeNae Royal Silver</h3>
+                <p class="price">₱999</p>
+                <button class="btn add-cart"
+                    data-name=" NaeNae Royal Silver" data-price="999">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img
+                src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=80"
+                alt="Modern wristwatch">
+            <div class="product-info">
+                <h3> NaeNae Midnight Black</h3>
+                <p class="price">₱750</p>
+                <button class="btn add-cart"
+                    data-name=" NaeNae Midnight Black" data-price="750">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img
+                src="https://plus.unsplash.com/premium_photo-1728759440467-d710b7073761?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                alt="A watch sitting on top of a table next to a pearl necklace">
+            <div class="product-info">
+                <h3> NaeNae Elegant Two-Tone Gold & Silver Ladies Watch</h3>
+                <p class="price">₱850</p>
+                <button class="btn add-cart"
+                    data-name=" NaeNae Elegant Two-Tone Gold & Silver Ladies Watch" data-price="850">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+
+             <article class="product-card">
+            <img
+                src="https://images.unsplash.com/photo-1549972574-8e3e1ed6a347?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                alt="round silver-colored chronograph watch with link band displaying 2: 48">
+            <div class="product-info">
+                <h3> NaeNae Silver Sparkle</h3>
+                <p class="price">₱680</p>
+                <button class="btn add-cart"
+                    data-name="NaeNae Silver Sparkle" data-price="680">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <img
+                src="https://images.unsplash.com/photo-1658973071321-da9445c620c3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                alt="a watch on a wrist">
+            <div class="product-info">
+                <h3> Lola Rose London</h3>
+                <p class="price">₱950</p>
+                <button class="btn add-cart"
+                    data-name="Lola Rose London" data-price="950">
+                    Add to Cart
+                </button>
+            </div>
+        </article>
+    </div>
+
+    <div class="cart-details" id="cart-details">
+        <h2>Your Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <strong id="cart-total">₱0</strong></p>
+        <button class="btn" id="clear-cart">Clear Cart</button>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 Watch Me Naenae. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
